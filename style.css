@@ -1,0 +1,157 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.head{
+    text-align: center;
+    color: red;
+}
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar #myMenu .custom-nav .nav-item a{
+    color:#002147;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: #f0AAB1;
+}
+a{
+    color: #dc3545;
+}
+a:hover{
+    color: #e994a2;
+}
+.st{
+    font-size: 24px;
+}
+.container1{
+    width: 915px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: solid red 1px;
+}
+.head{
+    text-align: center;
+    color: red;
+}
+
+.nav1{
+    background-color: #089de3;
+    height: 35px;
+    width: auto;
+    margin-top: 0px;
+    padding-top: 5px;
+    display: flex;
+}
+.nav1 > a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px ;
+    float: left;
+}
+.navbar1 > ul{
+    list-style: none;
+    float: left;
+}
+.nav1::after{
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+
+}
+.navbar1 > ul >li{
+    display: inline-block;
+    line-height: 20px;
+    padding: 0px 2px;
+}
+.navbar1 >ul :last-child{
+    padding-right: 20px;
+
+}
+.navbar1 >ul >li >a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+.navbar1 >ul >li:hover{
+    background-color: white;
+}
+.main-banner{
+    height: 400px;
+}
+.main-banner >img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+.logo1{
+    border-radius: 60px;
+    width: 135pxau;
+    height: 130px;
+    object-fit: cover;
+    float: left;
+}
+/*
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+
+}
+footer > small >a{
+    text-decoration: none;
+}
+*/
+.img1{
+    height: 300px;
+    width: 948px;
+    object-fit: cover;
+}
+
+.logo2{
+    width: 126px;
+    height: 132px;
+    float: right;
+}
+.scroll{
+    border: 1px solid black;
+    background-color: #089de3;
+    
+}
+.bottom{
+    width: auto;
+    height: 147px;
+    background-color: white;
+    border: 1px solid red ;
+}
+.bottom1{
+    width: auto;
+    height: 147px;
+    background-color: #000000;
+    border: 1px solid red;
+}
+
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+}
